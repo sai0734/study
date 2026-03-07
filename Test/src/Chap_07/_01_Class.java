@@ -1,0 +1,33 @@
+package Chap_07;
+
+public class _01_Class {
+	public static void main(String[] args) {
+		
+		// 차량용 블랙박스
+		// 모델명, 해상도, 가격, 색상
+		String modelName = "까망이";
+		String resulution = "FHD";
+		int price = 200000;
+		String color = "블랙";
+		
+		//새로운 제품을 개발
+		String modelNam2e = "하양이";
+		String resulution2 = "UHD";
+		int price2 = 300000;
+		String color2 = "화이트";
+		
+		// 또 다른 제품을 개발?
+		BlackBox bbox = new BlackBox();
+		
+		// 클래스명 객체이름 = new 클래스명();
+		// BlackBox 클래스로부터 bbox라는 객체를 생성
+		// bbox 객체는 BlackBox 클래스의 인서턴스
+		BlackBox bbox2 = new BlackBox();
+		
+
+		
+		
+		
+	}
+
+}
