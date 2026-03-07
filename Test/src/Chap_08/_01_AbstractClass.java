@@ -19,6 +19,5 @@ public class _01_AbstractClass {
 
 		SpeedCam speedCam = new SpeedCam(); // Camera 클래스의 자식
 		speedCam.showMainFeature(); // 속도 측정, 번호 감지
-		System.out.println();
 	}
 }
