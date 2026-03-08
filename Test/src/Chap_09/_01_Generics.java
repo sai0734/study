@@ -16,6 +16,7 @@ public class _01_Generics {
 		
 		System.out.println("------------------------");
 		
+		// 하나의 메소드로 여러 타입을 출력
 		printAnyArray(iArray);
 		printAnyArray(dArray);
 		printAnyArray(sArray);
