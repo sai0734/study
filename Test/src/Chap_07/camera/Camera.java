@@ -23,4 +23,9 @@ public class Camera {
 		System.out.println(this.name + "의 주요기능 : 사진촬영, 동영상 녹화");
 	}
 	
+	public void takePicture(String word, int su) {
+		// 사진 촬영
+		System.out.println(word + "를" + su + "장 촬영합니다.");
+	}
+	
 }
