@@ -5,7 +5,7 @@ import java.util.*;
 public class _04_ArrayList {
 	public static void main(String[] args) {
 		
-		// 컬렉션 프레임워크 (List, Set, Map)
+		// 컬렉션 프레임워크 (ArrayList)
 		ArrayList<String> list = new ArrayList<>();
 		
 		// 데이터 추가
@@ -14,7 +14,7 @@ public class _04_ArrayList {
 		list.add("김종국");
 		list.add("박명수");
 		list.add("강호동");
-		
+	
 		// 데이터 조회 (인덱스)
 		System.out.println(list.get(0)); // "유재석"
 		System.out.println(list.get(1)); // "조세호"
@@ -28,7 +28,7 @@ public class _04_ArrayList {
 		System.out.println("신청 학생 수 (이사 전) : " + list.size()); // 5
 		list.remove("박명수");
 		System.out.println("신청 학생 수 (이사 후) : " + list.size()); // 4
-		System.out.println(list.get(3));
+		System.out.println(list.get(3)); // 강호동
 		
 		System.out.println("---------------------------");
 		
@@ -38,7 +38,7 @@ public class _04_ArrayList {
 		
 		System.out.println("---------------------------");
 		
-		// 순회
+		// 데이터 순회
 		for (String s : list) {
 			System.out.println(s);
 		}
@@ -52,10 +52,10 @@ public class _04_ArrayList {
 		
 		System.out.println("---------------------------");
 		
-		// 확인
+		// 위치 확인
 		System.out.println(list.indexOf("김종국")); // 2
 		
-		// 선착순 5명 내에 포함되었는가?
+		// 포함 여부 선착순 5명 내에 포함되었는가?
 		if (list.contains("김종국")) { // 리스트에 데이터가 포함되었으면 true, 없으면 false
 			System.out.println("수강신청 성공");
 		} else {
@@ -69,7 +69,7 @@ public class _04_ArrayList {
 		if (list.isEmpty()) {
 			System.out.println("학생 수 " + list.size());
 			System.out.println("리스트가 비었습니다.");
-		}
+		} // 리스트가 비었습니다.
 		
 		System.out.println("---------------------------");
 		
