@@ -6,7 +6,7 @@ public class Parking {
 	private int parkingTime;
 	private int tenParkingTime;
 	private Car car;
-	
+
 	public int getFee() {
 		return fee;
 	}

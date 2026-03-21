@@ -3,6 +3,11 @@ package ParkingSystem;
 public class ParkingSystem {
 	private Parking[] parkings;
 	private String name = "부천공영주차장";
+	private String location = "";
+	private String x; //네이버지도 ,다음지도
+	private String y; //네이버지도 ,다음지도
+	
+	
 	private int income = 0;
 	
 	public ParkingSystem ( int num ) {
