@@ -39,6 +39,11 @@ public class LocalParkingSystem {
 				int a = Integer.parseInt(scanner.nextLine());
 				System.out.println("열 입력 : ");
 				int b = Integer.parseInt(scanner.nextLine());
+				
+				if (a == -1 || b == -1) {
+					System.out.println("시스템을 종료합니다.");
+					break;
+				}
 
 				if (a > 0 && a <= 5 && b > 0 && b <= 5) {
 					ParkingSpace selectSpace = seoul.parkings[a - 1][b - 1];
