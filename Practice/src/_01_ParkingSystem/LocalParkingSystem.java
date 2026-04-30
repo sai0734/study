@@ -1,4 +1,4 @@
-package _01;
+package _01_ParkingSystem;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -40,7 +40,8 @@ public class LocalParkingSystem {
 				System.out.println("열 입력 : ");
 				int b = Integer.parseInt(scanner.nextLine());
 				
-				if (a == -1 || b == -1) {
+				// 입력값이 -1일 경우 시스템 종료
+				if (a == -1 && b == -1) {
 					System.out.println("시스템을 종료합니다.");
 					break;
 				}

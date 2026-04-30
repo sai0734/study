@@ -1,4 +1,4 @@
-package _01;
+package _01_ParkingSystem;
 
 public class Car {
 	private String carKind;
